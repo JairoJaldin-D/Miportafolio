@@ -1,5 +1,22 @@
-body{background-color: cadetblue;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
 }
+
+/*propiedades que vienen por default*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+/**/
+
 
 header{
     background-color: aqua;
