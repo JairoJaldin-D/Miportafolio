@@ -15,10 +15,16 @@ a{
 ul{
     list-style-type: none;
 }
+header img{
+    width: auto;
+    height: 5rem;
+}
+
 img{
     width: auto;
-    height: 35rem;
+    height: 10rem;
 }
+
 
 /**/
 
@@ -31,6 +37,8 @@ header{
 
 .hero{
     background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
 }
 
 .seccionHabilidades{
