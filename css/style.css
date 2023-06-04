@@ -25,6 +25,9 @@ img{
     height: 10rem;
 }
 
+h2{
+    text-align: center;
+}
 
 /*Estilando los contenedores principales*/
 
@@ -48,6 +51,8 @@ header{
 
 .seccionProyectos{
     background-color:rosybrown;
+    display: flex;
+    flex-direction: column;
 }
 
 .about{
@@ -69,3 +74,19 @@ header{
     display: flex;
 }
 
+.contenedorProyectos{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contenedorProyectosdos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorProyectospadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
