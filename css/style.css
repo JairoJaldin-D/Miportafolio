@@ -65,6 +65,8 @@ header{
 
 .seccionContactos{
     background-color: gray;
+    display: flex;
+    flex-direction: column;
 }
 
 .seccionFooter{
@@ -95,7 +97,7 @@ header{
     justify-content: center;
 }
 
-.contenedorabout{
+.about .contenedorabout{
     display: flex;
     justify-content: center;
 }
@@ -103,4 +105,27 @@ header{
 
 .alineariconos{
     display: flex;
+}
+/*contactos*/
+.seccionContactos .contenedorContact{
+    display: flex;
+}
+
+.seccionContactos .contenedorContact .escala{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    border: 1px solid rgb(155, 155, 155) ;
+}
+
+.seccionContactos .contenedorContact .escala .gris{
+    display: flex;
+    align-items: center;
+    border-right: 3px solid rgb(208, 208, 208);
+    height: 3.5rem;
+}
+
+.seccionContactos .contenedorContact .formulario{
+    display: flex;
+    flex-direction: column;
 }
