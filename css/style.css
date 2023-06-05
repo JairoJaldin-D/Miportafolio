@@ -144,14 +144,15 @@ header .alineariconos i{
 
 .hero img{
     height: 15rem;
-    width: 44.5rem;
+    width: 40rem;
 }
 
 .hero .contenedor-hero h2{
-    font-size: 4rem;
-    /*
-    color: rgb(235, 235, 235)
-    */
+    font-size: 4.1rem;
+  
+    color: rgb(235, 235, 235);
+    text-align: start;
+    
 }
 
 
@@ -163,10 +164,21 @@ header nav a:hover{
 
 /*SubContenedores de los principales*/
 .hero .contenedor-hero{
+    background-color: yellowgreen;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-basis: 30%;
+    
 }
+
+.hero .contenedor-hero p{
+    color: rgb(234, 234, 234);
+    margin-top: 2.5rem;
+    font-size: 1.5em;
+}
+
+
 
 .seccionHabilidades .contenedorHabilidades{
     display: flex;
