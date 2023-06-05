@@ -26,19 +26,25 @@ h2{
     text-align: center;
 }
 
-/*Estilando los contenedores principales*/
+/*Estilando los contenedores principales Y Rellenando lo lineado*/
 
-
+/*Color relleno alineado*/
 header{
     background-color: aqua;
+}
+
+.contenedorheaderseccion{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 3rem;
     align-items: center;
 
     width: 80%;
     margin: 0 auto;
 }
+
+
+
 
 .hero{
     background-color: blanchedalmond;
@@ -47,19 +53,30 @@ header{
     height: 85vh;
 
 }
+/*Color relleno alineado*/
 
 .seccionHabilidades{
     background-color: chocolate;
+
+}
+
+.contenedorhabilidadesseccion{
     display: flex;
     flex-direction: column;
     padding: 5rem 0;
 
     width: 80%;
     margin: 0 auto;
+
 }
+
+/*Color relleno alineado*/
 
 .seccionProyectos{
     background-color:rosybrown;
+
+}
+.contenedorproyectosseccion{
     display: flex;
     flex-direction: column;
     padding: 5rem 0;
@@ -67,6 +84,8 @@ header{
     width: 80%;
     margin: 0 auto;
 }
+
+
 
 .about{
     background-color: goldenrod;
@@ -76,8 +95,13 @@ header{
     padding: 5rem 0;
 }
 
+/*Color relleno alineado*/
+
 .seccionContactos{
     background-color: gray;
+   
+}
+.contenedorcontactosseccion{
     display: flex;
     flex-direction: column;
     padding: 5rem 0;
@@ -86,16 +110,22 @@ header{
     margin: 0 auto;
 }
 
+/*Color relleno alineado*/
+
 .seccionFooter{
     background-color: firebrick;
+   
+}
+.contenedorfooterseccion{
     display: flex;
-    justify-content: center;
+
     min-height: 40vh;
 
     width: 80%;
     margin: 0 auto;
 }
-/*Estilo para los contenedores*/
+
+/*Estilo para los contenedores---------------------------------------*/
 header img{
     width: auto;
     height: 2.5rem;
@@ -155,8 +185,8 @@ header nav a:hover{
 
 .contenedorProyectospadre{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    
+    
 }
 
 .about .contenedorabout{
