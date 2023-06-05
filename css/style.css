@@ -71,6 +71,8 @@ header{
 
 .seccionFooter{
     background-color: firebrick;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -128,4 +130,13 @@ header{
 .seccionContactos .contenedorContact .formulario{
     display: flex;
     flex-direction: column;
+}
+
+.seccionFooter .contenedorFooter{
+    display: flex;
+}
+
+.seccionFooter .contenedorFooter .iconosFooter{
+    display: flex;
+    flex-direction: row;
 }
