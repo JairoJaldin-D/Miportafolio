@@ -15,10 +15,7 @@ a{
 ul{
     list-style-type: none;
 }
-header img{
-    width: auto;
-    height: 2.5rem;
-}
+
 
 img{
     
@@ -37,6 +34,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     height: 3rem;
+    align-items: center;
 }
 
 .hero{
@@ -80,6 +78,27 @@ header{
     display: flex;
     justify-content: center;
     min-height: 40vh;
+}
+/*Estilo para los contenedores*/
+header img{
+    width: auto;
+    height: 2.5rem;
+}
+header nav a{
+    margin-left: 2.5rem;
+}
+
+header .alineariconos a{
+    margin-left: 2rem;
+}
+
+header .alineariconos i{
+    font-size: 1.5rem;
+}
+
+/*Hover Header*/
+header nav a:hover{
+    background-color: red;
 }
 
 
