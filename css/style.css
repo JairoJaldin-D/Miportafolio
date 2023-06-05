@@ -35,13 +35,17 @@ header{
     justify-content: space-evenly;
     height: 3rem;
     align-items: center;
+
+    width: 80%;
+    margin: 0 auto;
 }
 
 .hero{
     background-color: blanchedalmond;
     display: flex;
     justify-content: center;
-    height: 80vh;
+    height: 85vh;
+
 }
 
 .seccionHabilidades{
@@ -49,6 +53,9 @@ header{
     display: flex;
     flex-direction: column;
     padding: 5rem 0;
+
+    width: 80%;
+    margin: 0 auto;
 }
 
 .seccionProyectos{
@@ -56,6 +63,9 @@ header{
     display: flex;
     flex-direction: column;
     padding: 5rem 0;
+
+    width: 80%;
+    margin: 0 auto;
 }
 
 .about{
@@ -71,6 +81,9 @@ header{
     display: flex;
     flex-direction: column;
     padding: 5rem 0;
+
+    width: 80%;
+    margin: 0 auto;
 }
 
 .seccionFooter{
@@ -78,6 +91,9 @@ header{
     display: flex;
     justify-content: center;
     min-height: 40vh;
+
+    width: 80%;
+    margin: 0 auto;
 }
 /*Estilo para los contenedores*/
 header img{
@@ -96,6 +112,19 @@ header .alineariconos i{
     font-size: 1.5rem;
 }
 
+.hero img{
+    height: 15rem;
+    width: 44.5rem;
+}
+
+.hero .contenedor-hero h2{
+    font-size: 4rem;
+    /*
+    color: rgb(235, 235, 235)
+    */
+}
+
+
 /*Hover Header*/
 header nav a:hover{
     background-color: red;
@@ -103,6 +132,11 @@ header nav a:hover{
 
 
 /*SubContenedores de los principales*/
+.hero .contenedor-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .seccionHabilidades .contenedorHabilidades{
     display: flex;
