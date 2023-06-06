@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 /*propiedades que vienen por default*/
@@ -22,9 +23,7 @@ img{
     height: 10rem;
 }
 
-h2{
-    text-align: center;
-}
+
 
 /*Estilando los contenedores principales Y Rellenando lo lineado*/
 
@@ -141,7 +140,7 @@ header .alineariconos a{
 header .alineariconos i{
     font-size: 1.5rem;
 }
-
+/*hero*/
 .hero img{
     height: 15rem;
     width: 40rem;
@@ -154,6 +153,27 @@ header .alineariconos i{
     text-align: start;
     
 }
+/*habilidades*/
+.seccionHabilidades .contenedorHabilidades .habilidadhijo img{
+    height: 10rem;
+    margin-top: 40px;
+}
+
+.seccionHabilidades .contenedorhabilidadesseccion h2{
+    text-align: center;
+    margin-bottom: 60px;
+    padding: 0;
+    font-size: 3rem;
+}
+
+.seccionHabilidades .contenedorhabilidadesseccion .contenedorHabilidades .habilidadhijo h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+
+}
+
+
+
 
 
 /*Hover Header*/
@@ -181,8 +201,46 @@ header nav a:hover{
 
 
 .seccionHabilidades .contenedorHabilidades{
-    display: flex;
+    
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+
+.seccionHabilidades .contenedorHabilidades .habilidadhijo{
+    background-color: white;
+    width: 335px;
+    
+    border-radius: 15px;
+    text-align: center;
+    padding: 0px 35px 50px 35px;
+
+
+}
+.seccionHabilidades .contenedorHabilidades .habilidadhijo .hijo-image{
+    background-color: chocolate;
+    height: 250px;
+    margin-bottom: -20px;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .contenedorProyectos{
     display: flex;
