@@ -180,7 +180,13 @@ header .alineariconos i{
 header nav a:hover{
     background-color: red;
 }
+/*Hover habilidades*/
 
+.habilidadhijo:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
 
 /*SubContenedores de los principales*/
 .hero .contenedor-hero{
