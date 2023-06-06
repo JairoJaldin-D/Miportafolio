@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'DM Sans', sans-serif;
     box-sizing: border-box;
+    
 }
 
 /*propiedades que vienen por default*/
@@ -29,7 +30,8 @@ img{
 
 /*Color relleno alineado*/
 header{
-    background-color: aqua;
+    background-color:rgb(32, 32, 32);
+    
 }
 
 .contenedorheaderseccion{
@@ -46,7 +48,7 @@ header{
 
 
 .hero{
-    background-color: blanchedalmond;
+    background-color: rgb(32, 32, 32);
     display: flex;
     justify-content: center;
     height: 85vh;
@@ -55,7 +57,7 @@ header{
 /*Color relleno alineado*/
 
 .seccionHabilidades{
-    background-color: chocolate;
+    background-color: rgb(39, 39, 39)
 
 }
 
@@ -72,7 +74,7 @@ header{
 /*Color relleno alineado*/
 
 .seccionProyectos{
-    background-color:rosybrown;
+    background-color:rgb(32, 32, 32);
 
 }
 .contenedorproyectosseccion{
@@ -88,7 +90,7 @@ header{
 
 .about{
    
-    background-color: goldenrod;
+    background-color: rgb(39, 39, 39);
     
 
 }
@@ -105,7 +107,7 @@ header{
 /*Color relleno alineado*/
 
 .seccionContactos{
-    background-color: gray;
+    background-color:rgb(32, 32, 32);
    
 }
 .contenedorcontactosseccion{
@@ -128,10 +130,12 @@ header img{
 }
 header nav a{
     margin-left: 2.5rem;
+    color: rgb(234, 234, 234);
 }
 
 header .alineariconos a{
     margin-left: 2rem;
+    color: rgb(234, 234, 234);
 }
 
 header .alineariconos i{
@@ -144,6 +148,7 @@ header .alineariconos i{
 }
 
 .hero .contenedor-hero h2{
+    background-color:rgb(32, 32, 32);
     font-size: 4.1rem;
   
     color: rgb(235, 235, 235);
@@ -161,13 +166,20 @@ header .alineariconos i{
     margin-bottom: 60px;
     padding: 0;
     font-size: 3rem;
+    color: rgb(235, 235, 235);
 }
 
 .seccionHabilidades .contenedorhabilidadesseccion .contenedorHabilidades .habilidadhijo h2{
     font-size: 2rem;
     margin-bottom: 15px;
-
+    color: rgb(39, 39, 39);  
 }
+.habilidadhijo p{
+    color: rgb(39, 39, 39);   
+}
+
+
+
 
 /*Proyecto*/
 
@@ -177,6 +189,7 @@ header .alineariconos i{
     margin-bottom: 55px;
     padding: 0;
     font-size: 3rem;
+    color: rgb(235, 235, 235);
 }
 
 
@@ -184,8 +197,12 @@ header .alineariconos i{
 
 /*Hover Header*/
 header nav a:hover{
-    background-color: red;
+    background-color: yellow;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
 }
+
 /*Hover habilidades*/
 
 .habilidadhijo:hover{
@@ -196,7 +213,7 @@ header nav a:hover{
 
 /*SubContenedores de los principales*/
 .hero .contenedor-hero{
-    background-color: yellowgreen;
+    background-color:rgb(32, 32, 32);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -214,16 +231,17 @@ header nav a:hover{
 
 .seccionHabilidades .contenedorHabilidades{
     
-  background-color: cadetblue;
+    background-color: rgb(39, 39, 39);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  
 }
 
 .seccionHabilidades .contenedorHabilidades .habilidadhijo{
-    background-color: white;
+    color: rgb(39, 39, 39);
     width: 335px;
-    
+    background-color:rgb(254, 218, 78) ;
     border-radius: 15px;
     text-align: center;
     padding: 0px 35px 50px 35px;
@@ -231,7 +249,7 @@ header nav a:hover{
 
 }
 .seccionHabilidades .contenedorHabilidades .habilidadhijo .hijo-image{
-    background-color: chocolate;
+    background-color:rgb(254, 218, 78) ;
     height: 250px;
     margin-bottom: -20px;
     background-size: cover;
@@ -249,17 +267,18 @@ header nav a:hover{
 
 .contenedorProyectospadre{
     display: flex;
-    border: 3px solid goldenrod;
+    
     justify-content: space-between;
     background-color: rebeccapurple;
     flex-wrap: wrap;
+    background-color:rgb(32, 32, 32);
 }
 
 .proyectohijo{
     border: 1px solid black;
     text-align:start;
     padding: 1.5rem;
-    background-color: royalblue;
+    background-color: rgb(254, 218, 78);
     
 }
 
@@ -267,12 +286,13 @@ header nav a:hover{
     font-size: 2rem;
     text-align: start;
     margin: 0;
-
+    color: rgb(39, 39, 39);  
 }
 
 .contenedorProyectospadre .contenedorProyectos .proyectohijo p{
     margin-top: 1.5rem;
     font-size: 1rem;
+    color: rgb(39, 39, 39);  
 }
 
 .contenedorProyectospadre .contenedorProyectos .proyectohijo{
@@ -280,6 +300,8 @@ header nav a:hover{
     height: 21rem;
     width: 45rem;
     margin: 0rem 0 3rem 0;
+    background-color: rgb(254, 218, 78);
+    
 
 }
 
@@ -298,12 +320,13 @@ header nav a:hover{
     text-align: center;
     margin-bottom: 55px;
     font-size: 3rem;
+    color: rgb(234, 234, 234);
 }
 
 .about .contenedorabout{
     display: flex;
     justify-content: center;
-    background-color: darkred;
+    background-color: rgb(39, 39, 39)
 }
 
 .about .contenedorabout div img{
@@ -326,6 +349,7 @@ header nav a:hover{
     text-align: center;
     font-size: 2.5rem;
     margin-top: 3.5rem;
+    color: rgb(234, 234, 234);
 }
 
 
@@ -340,11 +364,12 @@ header nav a:hover{
 .about .contenedorabout .contenedorperfil .alineariconos a{
     margin-top: 1rem;
     font-size: 2.5rem;
-    color: white;
+    color: rgb(234, 234, 234);
 }
 
 .about .contenedorabout .textoperfil p{
     font-size: 1.5rem;
+    color:rgb(234, 234, 234);;
 }
 
 .about .contenedorabout .textoperfil{
@@ -355,18 +380,18 @@ header nav a:hover{
 /*contactos-----------------*/
 .seccionContactos .contenedorContact{
     display: flex;
-    background-color: aquamarine;
+    background-color: rgb(32, 32, 32);
    justify-content: space-evenly;
    margin-bottom: 10rem;
 }
 
 .seccionContactos .contenedorcontactosseccion .contenedorContact .textocontacto{
-    background-color: royalblue;
+    background-color: rgb(32, 32, 32);
     width: 50rem;   
     margin: 0 2.5rem 1rem 0rem;
 }
 .formulario{
-    background-color: rebeccapurple;
+    background-color: rgb(39, 39, 39);
     width: 50rem;
     margin: 0 0rem 1rem 2.5rem;
 }
@@ -376,6 +401,7 @@ input{
     padding: 0.5rem;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
+    background-color: rgb(254, 218, 78);
 }
 
 
@@ -385,6 +411,8 @@ textarea{
     resize: none;
     height: 10rem;
     padding: 0.5rem 1rem;
+    background-color: rgb(254, 218, 78);
+
 }
 
 
@@ -392,11 +420,13 @@ textarea{
     text-align: center;
     margin-bottom: 50px;
     font-size: 3rem;
+    color: rgb(234, 234, 234);
 }
 
 
 .seccionContactos .contenedorcontactosseccion .contenedorContact .textocontacto p{
     font-size: 1rem;
+    color:rgb(234, 234, 234);;
 }
 
 
@@ -406,7 +436,7 @@ textarea{
     display: flex;
     flex-direction: column;
     font-weight: bold;
-    border: 1px solid rgb(155, 155, 155) ;
+    
 }
 
 .seccionContactos .contenedorContact .escala .gris{
@@ -431,7 +461,7 @@ textarea{
 /*FOOTER*/
 
 .seccionFooter{
-    background-color: red;
+    background-color:rgb(32, 32, 32);
     width: 100%;
     min-height: 40vh;
     display: flex;
@@ -443,8 +473,9 @@ textarea{
     margin: 0 auto;
     display: flex;
     align-items: start;
-    background-color: cadetblue;
+    background-color:rgb(32, 32, 32);
     padding: 3rem 0rem;
+    color: rgb(234, 234, 234);
 }
 
 .seccionFooter .contenedorFooter .iconosFooter{
