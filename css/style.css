@@ -172,6 +172,15 @@ header .alineariconos i{
 
 }
 
+/*Proyecto*/
+
+        /*El h2 titulo*/
+.seccionProyectos .contenedorproyectosseccion h2{
+    text-align: center;
+    margin-bottom: 55px;
+    padding: 0;
+    font-size: 3rem;
+}
 
 
 
@@ -232,38 +241,59 @@ header nav a:hover{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*proyectos*/
 .contenedorProyectos{
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
 }
 
-.contenedorProyectosdos{
-    display: flex;
-    flex-direction: column;
-}
 
 .contenedorProyectospadre{
     display: flex;
-    
+    border: 3px solid goldenrod;
+    justify-content: space-between;
+    background-color: rebeccapurple;
+    flex-wrap: wrap;
+}
+
+.proyectohijo{
+    border: 1px solid black;
+    text-align:start;
+    padding: 1.5rem;
+    background-color: royalblue;
     
 }
+
+.contenedorProyectospadre .contenedorProyectos .proyectohijo h2{
+    font-size: 2rem;
+    text-align: start;
+    margin: 0;
+
+}
+
+.contenedorProyectospadre .contenedorProyectos .proyectohijo p{
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+.contenedorProyectospadre .contenedorProyectos .proyectohijo{
+    border-radius: 0.5rem;
+    height: 21rem;
+    width: 45rem;
+    margin: 0rem 0 3rem 0;
+
+}
+
+
+
+
+
+
+
+
+
 
 .about .contenedorabout{
     display: flex;
