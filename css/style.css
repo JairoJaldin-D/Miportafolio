@@ -117,20 +117,9 @@ header{
     margin: 0 auto;
 }
 
-/*Color relleno alineado*/
 
-.seccionFooter{
-    background-color: firebrick;
-   
-}
-.contenedorfooterseccion{
-    display: flex;
 
-    min-height: 40vh;
 
-    width: 80%;
-    margin: 0 auto;
-}
 
 /*Estilo para los contenedores---------------------------------------*/
 header img{
@@ -368,18 +357,18 @@ header nav a:hover{
     display: flex;
     background-color: aquamarine;
    justify-content: space-evenly;
-   
+   margin-bottom: 10rem;
 }
 
 .seccionContactos .contenedorcontactosseccion .contenedorContact .textocontacto{
     background-color: royalblue;
     width: 50rem;   
-    margin: 1rem 2.5rem 1rem 1rem;
+    margin: 0 2.5rem 1rem 0rem;
 }
 .formulario{
     background-color: rebeccapurple;
     width: 50rem;
-    margin: 1rem 1rem 1rem 2.5rem;
+    margin: 0 0rem 1rem 2.5rem;
 }
 
 input{
@@ -394,7 +383,7 @@ input{
 textarea{
     border-radius: 0.5rem;
     resize: none;
-    height: 9rem;
+    height: 10rem;
     padding: 0.5rem 1rem;
 }
 
@@ -440,8 +429,22 @@ textarea{
 
 
 /*FOOTER*/
-.seccionFooter .contenedorFooter{
+
+.seccionFooter{
+    background-color: red;
+    width: 100%;
+    min-height: 40vh;
     display: flex;
+    align-items: center;
+}
+
+.seccionFooter .contenedorFooter{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: start;
+    background-color: cadetblue;
+    padding: 3rem 0rem;
 }
 
 .seccionFooter .contenedorFooter .iconosFooter{
@@ -449,4 +452,66 @@ textarea{
     flex-direction: row;
 }
 
+.textofooter{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
 
+.seccionFooter h1{
+    color: rgb(254, 218, 78)
+}
+
+.listafooter h2{
+    color: rgb(235, 235, 235);
+}
+
+.contactofooter h2{
+    color: rgb(235, 235, 235);
+}
+
+
+.seccionFooter .contenedorFooter .textofooter p{
+    font-size: 1.5rem;
+}
+
+
+.listafooter{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
+    gap: 1.7rem;
+}
+
+li{
+    margin-bottom: 0.5rem;
+}
+
+
+.contactofooter{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
+    gap: 1.7rem;
+}
+
+
+.iconosFooter{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.iconosFooter a{
+
+    font-size: 2.5rem;
+    margin-left: 6rem;
+    color: rgb(235, 235, 235);
+}
