@@ -84,15 +84,23 @@ header{
     margin: 0 auto;
 }
 
-
+/*Color relleno alineado*/
 
 .about{
+   
     background-color: goldenrod;
+    
+
+}
+.contenedoraboutseccion{
+    width: 65%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 5rem 0;
 }
+
 
 /*Color relleno alineado*/
 
@@ -293,17 +301,68 @@ header nav a:hover{
 
 
 
+/*About*/
 
+
+.about h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 3rem;
+}
 
 .about .contenedorabout{
     display: flex;
     justify-content: center;
+    background-color: darkred;
 }
 
+.about .contenedorabout div img{
+    border-radius: 50%;
+    height: 15rem;
+    width:15rem ;
+   
+    
 
-.alineariconos{
+}
+
+.contenedorperfil{
     display: flex;
+    flex-direction: column;
+
+
 }
+
+.contenedorperfil h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 3.5rem;
+}
+
+
+.about .contenedorabout .contenedorperfil .alineariconos{
+    display: flex;
+    justify-content: space-between;
+    /*
+    margin-right: 2rem;
+    */
+}
+
+.about .contenedorabout .contenedorperfil .alineariconos a{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.about .contenedorabout .textoperfil p{
+    font-size: 1.5rem;
+}
+
+.about .contenedorabout .textoperfil{
+    margin-left: 17rem;
+}
+
+
 /*contactos*/
 .seccionContactos .contenedorContact{
     display: flex;
