@@ -13,6 +13,6 @@ Hablando de las animaciones de css en este portafolio son muy pobres en especial
 ##	Autor
 **Jaldin Jairo daniel
 
-* [Portafolio web](https://actualizar.)
+* [Portafolio web](https://github.com/JairoJaldin-D/Miportafolio/deployments/activity_log?environment=github-pages)
 * [GitHub](https://github.com/JairoJaldin-D)
 * [Behance](https://www.behance.net/jairojaldin/moodboards)
